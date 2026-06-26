@@ -1,0 +1,21 @@
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Local datasets, model artifacts, and generated outputs can get large.
+data/raw/*
+data/processed/*
+models/*
+results/*
+
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!models/.gitkeep
+!results/.gitkeep
+
+.env
+.env.*
