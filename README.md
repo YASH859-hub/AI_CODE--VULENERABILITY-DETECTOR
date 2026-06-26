@@ -1,6 +1,6 @@
 # AI Code Vulnerability Detector
 
-FYP | ThreeCircuits
+FYP | YASH JADHAV AND TEAM
 
 An applied AI/ML project for detecting vulnerable source-code snippets using a reproducible machine-learning pipeline. The repository is organized for dataset preparation, classical ML baselines, deep-learning experiments, evaluation, explainability, and a future command-line scanner.
 
@@ -21,21 +21,21 @@ This repository contains the project structure, Python environment lockfile, sta
 
 ```text
 AI_CODE-VULNERABILTY-DETECTOR/
-├── data/
-│   ├── raw/                # original dataset files, for example devign.json
-│   └── processed/          # cleaned CSV files and train/validation/test splits
-├── notebooks/              # exploration, dataset analysis, and experiments
-├── src/
-│   ├── preprocess.py       # tokenisation, cleaning, and feature extraction
-│   ├── classical_model.py  # Random Forest / XGBoost baseline training
-│   ├── dl_model.py         # CodeBERT / BiLSTM training entry point
-│   ├── evaluate.py         # shared evaluation metrics
-│   ├── explain.py          # SHAP explanation workflow
-│   └── cli.py              # command-line scanner entry point
-├── models/                 # saved model artifacts
-├── results/                # metrics, plots, reports, and confusion matrices
-├── requirements.txt        # pinned Python dependencies
-└── README.md
+|-- data/
+|   |-- raw/                # original dataset files, for example devign.json
+|   `-- processed/          # cleaned CSV files and train/validation/test splits
+|-- notebooks/              # exploration, dataset analysis, and experiments
+|-- src/
+|   |-- preprocess.py       # tokenisation, cleaning, and feature extraction
+|   |-- classical_model.py  # Random Forest / XGBoost baseline training
+|   |-- dl_model.py         # CodeBERT / BiLSTM training entry point
+|   |-- evaluate.py         # shared evaluation metrics
+|   |-- explain.py          # SHAP explanation workflow
+|   `-- cli.py              # command-line scanner entry point
+|-- models/                 # saved model artifacts
+|-- results/                # metrics, plots, reports, and confusion matrices
+|-- requirements.txt        # pinned Python dependencies
+`-- README.md
 ```
 
 ## Environment Setup
